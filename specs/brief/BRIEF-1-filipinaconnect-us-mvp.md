@@ -1,13 +1,13 @@
 ---
 id: BRIEF-1
 title: FilipinaConnect.US MVP
-version: 0.1.0
+version: 0.2.0
 status: approved
 owner: Honda
 supersedes:
 approved_by: Honda
-approved_at: 2026-09-29
-approved_hash: sha256:d03864a54e5ef30ab65cbea7
+approved_at: 2026-09-30
+approved_hash: sha256:7c12c793ad591af7ecc8eba2
 ---
 
 # BRIEF-1: FilipinaConnect.US MVP
@@ -24,6 +24,7 @@ FilipinaConnect.US là nền tảng tìm hiểu quan hệ Mỹ – Philippines, 
 | --- | --- | --- | --- |
 | G-01 | Kết nối nam Mỹ đã xác minh với nữ Philippines đã xác minh | 300 thành viên đã xác minh sau 2 tháng kể từ ngày ra mắt (ra mắt 2026-12-31) | SRC-1#L26-L27, SRC-4#L20, SRC-4#L22, SRC-5#L17-L18 |
 | G-02 | Phiên bản đầu an toàn, chuyên nghiệp, mở rộng được | Hệ thống chịu được 300 thành viên đồng thời lúc ra mắt | SRC-1#L387-L388, SRC-4#L20-L21 |
+| G-03 | Thu hút nam Mỹ đăng ký | Trung bình ≥ 500 nam xác nhận email (tài khoản chuyển Active) mỗi ngày UTC, tính trên 7 ngày liên tiếp, đạt muộn nhất 2027-02-28; nữ không có chỉ tiêu; đo bằng các bản ghi xác nhận email trong audit log | SRC-29#L19-L21, SRC-29#L23-L28, SRC-29#L32 |
 
 ## 3. Non-goals
 
@@ -139,3 +140,4 @@ FilipinaConnect.US là nền tảng tìm hiểu quan hệ Mỹ – Philippines, 
 | --- | --- | --- | --- |
 | 0.1.0 | 2026-09-29 | Claude (draft) | Bản nháp đầu từ SRC-1..SRC-5 |
 | 0.1.0 | 2026-09-29 | Honda | Approved |
+| 0.2.0 | 2026-09-30 | Honda | Approved revision of 0.1.0 (minor): thêm mục tiêu G-03: trung bình ≥ 500 nam đăng ký mỗi ngày (SRC-29) |
